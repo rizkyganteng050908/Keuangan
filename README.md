@@ -12,3 +12,5 @@ Nama Databases di Xmpp db_harian_keuangan di dalam databases itu ada 2 file yait
              jumlah decimal(12,2)
              tipe enum('masuk','keluar')
              created_at timestamp
+            katerogi Vachar(50) utf8mb4_general_ci	
+            
