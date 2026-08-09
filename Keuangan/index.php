@@ -237,7 +237,7 @@ if ($sisaSaldo < 0) {
 
                     <form action="index.php" method="POST" class="space-y-3.5 mb-6">
                         <div>
-                            <input type="text" name="keterangan" placeholder="Keterangan (contoh: Beli Kopi)" required 
+                            <input type="text" name="keterangan" placeholder="Keterangan telah membeli sesuatu" required 
                                 class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-sm font-medium focus:bg-white focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition placeholder:text-slate-400">
                         </div>
                         <div class="grid grid-cols-2 gap-3">
@@ -391,7 +391,6 @@ if ($sisaSaldo < 0) {
                     this.value = parseInt(val, 10).toLocaleString('id-ID');
                 } else {
                     this.value = '';
-                    
                 }
             });
         });
